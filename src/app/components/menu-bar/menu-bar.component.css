@@ -1,0 +1,69 @@
+.menu-bar__container {
+  width: 100%;
+  height: 3.4rem;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ---------Logo--------- */
+
+.menu-bar__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18rem;
+  height: 100%;
+}
+
+.menu-bar__logo img{
+  width: 6rem;
+}
+
+/* ---------Links--------- */
+
+.menu-bar__links {
+  display: flex;
+  align-items: center ;
+  justify-content: center;
+
+  width: 55rem;
+  height: 100%;
+}
+
+.menu-bar__links a {
+  text-decoration: none;
+  color: #000000;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.menu-bar__links ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+/* ---------Conta--------- */
+
+.menu-bar__conta {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+
+  padding: .8rem;
+}
+
+.menu-bar__conta a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #000000;
+  margin-left: 1.1rem;
+}
+
+.menu-bar__conta i {
+  margin: 0 .7rem;
+}
