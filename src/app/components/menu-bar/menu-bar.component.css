@@ -46,6 +46,11 @@
   list-style: none;
 }
 
+.menu-bar__links ul li a:hover {
+  color: #077d07;
+  font-size: 16.3px;
+}
+
 /* ---------Conta--------- */
 
 .menu-bar__conta {
@@ -67,3 +72,5 @@
 .menu-bar__conta i {
   margin: 0 .7rem;
 }
+
+

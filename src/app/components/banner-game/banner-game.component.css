@@ -1,0 +1,45 @@
+.menu-game__container {
+  width: 100%;
+  height: 750px;
+
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.88) 25%, rgba(255, 255, 255, 0) 100%);
+}
+
+.menu-game__name {
+  width: 550px;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  user-select: none;
+}
+
+.menu-game__name img {
+  width: 200px;
+  margin-bottom: 50px;
+}
+
+.menu-game__name h1 {
+  font-size: 52px;
+  color: #FFFFFF;
+  margin-bottom: 17px;
+}
+
+.menu-game__name p {
+  font-size: 22px;
+  color: #FFFFFF;
+  margin-bottom: 25px;
+}
+
+.game__video {
+  position: absolute;
+  width: 100%;
+  height: 750px;
+  object-fit: cover;
+  object-position: center;
+  z-index: -1;
+}
+
+
