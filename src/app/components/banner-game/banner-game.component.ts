@@ -6,7 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./banner-game.component.css']
 })
 export class BannerGameComponent implements OnInit {
-
   constructor() { }
 
   ngOnInit(): void {

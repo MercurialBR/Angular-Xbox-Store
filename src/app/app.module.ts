@@ -11,6 +11,7 @@ import { IconSectionComponent } from './components/icons-xbox/icon-section/icon-
 import { SmallCardComponent } from './components/small-card/small-card.component';
 import { BigCardComponent } from './components/big-card/big-card.component';
 import { BigCardImageComponent } from './components/big-card/big-card-image/big-card-image.component';
+import { SmallCardLeftComponent } from './components/small-card-left/small-card-left.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { BigCardImageComponent } from './components/big-card/big-card-image/big-
         SmallCardComponent,
         BigCardComponent,
         BigCardImageComponent,
+        SmallCardLeftComponent,
     ],
     providers: [],
     bootstrap: [AppComponent],
