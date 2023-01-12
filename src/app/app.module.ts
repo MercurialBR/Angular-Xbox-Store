@@ -8,8 +8,9 @@ import { HomeComponent } from './home/home.component';
 import { BannerGameComponent } from './components/banner-game/banner-game.component';
 import { IconsXboxComponent } from './components/icons-xbox/icons-xbox.component';
 import { IconSectionComponent } from './components/icons-xbox/icon-section/icon-section.component';
+import { SmallCardComponent } from './components/small-card/small-card.component';
 import { BigCardComponent } from './components/big-card/big-card.component';
-import { BigCardNameComponent } from './components/big-card/big-card-name/big-card-name.component';
+import { BigCardImageComponent } from './components/big-card/big-card-image/big-card-image.component';
 
 
 @NgModule({
@@ -20,8 +21,9 @@ import { BigCardNameComponent } from './components/big-card/big-card-name/big-ca
         BannerGameComponent,
         IconsXboxComponent,
         IconSectionComponent,
+        SmallCardComponent,
         BigCardComponent,
-        BigCardNameComponent,
+        BigCardImageComponent,
     ],
     providers: [],
     bootstrap: [AppComponent],

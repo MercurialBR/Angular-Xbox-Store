@@ -1,0 +1,45 @@
+/* -------IMAGE------- */
+.big-card__container {
+  position: relative;
+  width: 100%;
+  height: 920px;
+  display: flex;
+  overflow: hidden;
+}
+
+.big-card__image{
+  width: 100%;
+  height: 920px;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+/* -------TITLE------- */
+.big-card-game__title {
+  display: flex;
+  flex-direction: column;
+  bottom: 0px;
+  position: absolute;
+  margin: 100px 80px;
+}
+
+.big-card-game__title h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+}
+
+.big-card-game__title a {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #107c10;
+}
+
+.big-card-game__title a:hover {
+  color: #9bf00b;
+  border-bottom: 2px solid #9bf00b;
+  width: 170px;
+}
