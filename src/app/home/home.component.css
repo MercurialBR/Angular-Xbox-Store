@@ -1,17 +1,16 @@
-.cards__container {
+.container__top {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
 }
 
-.big_card {
+.big_card, .small-card {
   display: flex;
   flex-direction: column;
-  width: 49.8%;
+  width: 100%;
 }
 
-.small-card {
+
+.small-card-final {
   display: flex;
   flex-direction: column;
-  width: 49.8%;
 }
+

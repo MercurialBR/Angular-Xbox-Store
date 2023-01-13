@@ -12,6 +12,8 @@ import { SmallCardComponent } from './components/small-card/small-card.component
 import { BigCardComponent } from './components/big-card/big-card.component';
 import { BigCardImageComponent } from './components/big-card/big-card-image/big-card-image.component';
 import { SmallCardLeftComponent } from './components/small-card-left/small-card-left.component';
+import { BannerLineComponent } from './components/banner-line/banner-line.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
@@ -26,6 +28,8 @@ import { SmallCardLeftComponent } from './components/small-card-left/small-card-
         BigCardComponent,
         BigCardImageComponent,
         SmallCardLeftComponent,
+        BannerLineComponent,
+        FooterComponent,
     ],
     providers: [],
     bootstrap: [AppComponent],

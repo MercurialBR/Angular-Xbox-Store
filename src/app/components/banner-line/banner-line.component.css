@@ -1,0 +1,55 @@
+.banner-line__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+.banner-line__video{
+  width: 99.5%;
+  position: relative;
+}
+
+
+/* ---------TITLE---------  */
+.banner-line__title {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-right: 45%;
+}
+
+.banner-line__title h1 {
+  font-size: 50px;
+  color: #FFFFFF;
+  margin-bottom: 25px;
+}
+
+.banner-line__title p {
+  font-size: 23px;
+  color: #FFFFFF;
+  margin-bottom: 25px;
+}
+
+.banner-line__title a {
+  padding: 3px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #107c10;
+  background-color: #9bf00b;
+  width: 270px;
+}
+
+.banner-line__title a:hover {
+  color: #9bf00b;
+  width: 270px;
+  background-color: transparent;
+  border-bottom: 2px solid #9bf00b;
+  transition: .09s;
+}
+
