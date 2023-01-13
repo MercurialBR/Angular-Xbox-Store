@@ -47,8 +47,8 @@
 }
 
 .menu-bar__links ul li a:hover {
+  font-weight: 650;
   color: #077d07;
-  font-size: 16.3px;
 }
 
 /* ---------Conta--------- */
