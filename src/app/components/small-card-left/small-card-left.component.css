@@ -55,3 +55,26 @@
   border-bottom: 2px solid #9bf00b;
   transition: .09s;
 }
+
+@media (max-width: 412px) {
+  .small-card__container {
+    width: 99%;
+    height: 200px;
+  }
+  .small-card__title {
+    width: 70%;
+    padding: 5px;
+    margin: 5px;
+  }
+  .small-card__title h1 {
+
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .small-card__title p {
+    display: none;
+  }
+  .small-card__title a {
+    font-size: 12px;
+  }
+}

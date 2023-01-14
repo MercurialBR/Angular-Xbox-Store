@@ -74,3 +74,13 @@
 }
 
 
+@media (max-width: 412px) {
+  .menu-bar__container{
+    justify-content: space-between;
+    height: 100px;
+  }
+  .menu-bar__links {
+    display: none;
+  }
+
+}

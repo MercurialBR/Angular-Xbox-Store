@@ -3,3 +3,9 @@
   align-items: center;
   justify-content: center;
 }
+
+@media (max-width: 412px) {
+  .icons-xbox__container{
+    flex-wrap: wrap;
+  }
+}

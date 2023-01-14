@@ -53,3 +53,25 @@
   transition: .09s;
 }
 
+@media (max-width: 412px) {
+  .banner-line__container {
+    width: 100%;
+    height: 200;
+  }
+  .banner-line__title {
+    margin: 0;
+    padding: 0;
+  }
+  .banner-line__title h1 {
+    font-size: 23px;
+    margin-bottom: 10px;
+  }
+  .banner-line__title p {
+    display: none;
+  }
+  .banner-line__title a {
+    font-size: 8px;
+    width: auto;
+    margin-right: 180px;
+  }
+}
