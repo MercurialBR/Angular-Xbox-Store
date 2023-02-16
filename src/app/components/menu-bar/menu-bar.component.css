@@ -77,10 +77,36 @@
 @media (max-width: 412px) {
   .menu-bar__container{
     justify-content: space-between;
-    height: 100px;
+    height: 60px;
   }
   .menu-bar__links {
     display: none;
   }
 
+}
+
+@media (max-width: 768px) {
+  .menu-bar__container{
+    justify-content: space-between;
+    height: 70px;
+  }
+  .menu-bar__links {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .menu-bar__container{
+    justify-content: space-between;
+    height: 70px;
+  }
+  .menu-bar__links {
+    display: none;
+  }
+}
+
+@media (max-width: 1333px) {
+  .menu-bar__links a {
+    font-size: 13px;
+  }
 }
